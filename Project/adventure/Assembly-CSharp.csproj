@@ -92,7 +92,6 @@
     <Compile Include="Assets/CrossPlatformInput/Scripts/Joystick.cs" />
     <Compile Include="Assets/Scripts/GameDifficulty.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
-    <Compile Include="Assets/Scripts/Ball.cs" />
     <Compile Include="Assets/Scripts/MainMenuCanvasControl.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" />
@@ -163,7 +162,6 @@
     <Compile Include="Assets/Scripts/UIButtonStartGame.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets/Scripts/BallUserControl.cs" />
     <Compile Include="Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" />

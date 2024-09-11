@@ -409,8 +409,6 @@
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
-"Assets/Scripts/Ball.cs"
-"Assets/Scripts/BallUserControl.cs"
 "Assets/Scripts/Chaser.cs"
 "Assets/Scripts/Checkpoint.cs"
 "Assets/Scripts/Damage.cs"

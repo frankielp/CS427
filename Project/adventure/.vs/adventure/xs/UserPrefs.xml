@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{3FD885DE-E3DB-5918-3837-4F0F454458A7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Ball.cs" Line="18" Column="44" />
+      <File FileName="Assets/Scripts/Damage.cs" Line="44" Column="25" />
+      <File FileName="Assets/Scripts/Health.cs" Line="87" Column="14" />
+      <File FileName="Assets/Scripts/Joystick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fox.cs" Line="30" Column="6" />
+      <File FileName="Assets/Scripts/Checkpoint.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Chaser.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SmoothFollow.cs" Line="8" Column="66" />
+      <File FileName="Assets/Scripts/MiniMapFollow.cs" Line="9" Column="35" />
+      <File FileName="Assets/Scripts/MonsterChaser.cs" Line="44" Column="2" />
+      <File FileName="Assets/Scripts/SpawnGameObjects.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Treasure.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameDifficulty.cs" Line="8" Column="1" />
+      <File FileName="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" Line="50" Column="50" />
+      <File FileName="Assets/Scripts/UIButtonLevelLoad.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SetupLevel.cs" Line="141" Column="5" />
+      <File FileName="Assets/Scripts/TriggerLevelLoad.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenuCanvasControl.cs" Line="28" Column="2" />
+      <File FileName="Assets/Scripts/MobileCanvasControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIButtonOpenGithub.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIButtonPlay.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIButtonQuitGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIButtonResumeGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIButtonStartGame.cs" Line="16" Column="25" />
+      <File FileName="Assets/Scripts/WaterBasic.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/TimedObjectDestructor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="30" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="adventure" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CrossPlatformInput" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fd063c59-caeb-4620-89b8-c95037154e78" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

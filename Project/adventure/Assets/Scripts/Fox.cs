@@ -13,13 +13,13 @@ public class Fox : MonoBehaviour
     public float jumpForce = 10f;
 
     // Kiểm tra xem cáo có đang ở trên mặt đất không
-    private bool isGrounded;
+    private bool isGrounded=false;
 
     // Tham chiếu đến Rigidbody để xử lý nhảy
     private Rigidbody rb;
 
-    // Dùng để kiểm tra mặt đất
-    private const float k_GroundRayLength = 0.2f;
+    [SerializeField]
+    private LayerMask groundLayer;
 
     // Gravity force
     private const float gravityForce = -1f;
@@ -37,7 +37,7 @@ public class Fox : MonoBehaviour
     void Update()
     {
         // Kiểm tra xem cáo có chạm đất không
-        isGrounded = Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength);
+        //isGrounded = Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength);
 
         // Lấy input từ người chơi
         float moveX = CrossPlatformInputManager.GetAxis("Horizontal");
@@ -46,12 +46,12 @@ public class Fox : MonoBehaviour
 
 
         // Ghi lại giá trị input vào console
-        //Debug.Log($"Jump: {jump}, isGrounded: {isGrounded}, rb.velocity.y {rb.velocity.y}");
+        Debug.Log($"Jump: {jump}, isGrounded: {isGrounded}, rb.velocity.y {rb.velocity.y}");
         // Di chuyển cáo theo hướng
         float fallSpeed = gravityForce;
         if (isGrounded)
         {
-            fallSpeed = 0f;
+            fallSpeed = 0.0f;
         }
         else if (jump)
         {
@@ -133,5 +133,29 @@ public class Fox : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
         }
+    }
+    void OnCollisionStay(Collision collision)
+    {
+        // Check if the object is on the ground layer
+        if (IsGroundedLayer(collision.gameObject.layer))
+        {
+            isGrounded = true;
+        }
+    }
+
+    // OnCollisionExit: Called when the character stops touching another collider
+    void OnCollisionExit(Collision collision)
+    {
+        // When the character stops touching the ground layer
+        if (IsGroundedLayer(collision.gameObject.layer))
+        {
+            isGrounded = false;
+        }
+    }
+
+    // Helper function to check if the layer is part of the ground layer
+    bool IsGroundedLayer(int layer)
+    {
+        return groundLayer == (groundLayer | (1 << layer));
     }
 }

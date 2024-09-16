@@ -2398,9 +2398,9 @@ MonoBehaviour:
   canBeatLevel: 1
   isFinalLevel: 0
   beatEasyLevelScore: 5
-  beatNormalLevelScore: 5
-  beatHardLevelScore: 5
-  beatExploreLevelScore: 5
+  beatNormalLevelScore: 10
+  beatHardLevelScore: 15
+  beatExploreLevelScore: 40
   mainCanvas: {fileID: 914563712}
   mainScoreDisplay: {fileID: 1479401081}
   gameOverCanvas: {fileID: 493596498}

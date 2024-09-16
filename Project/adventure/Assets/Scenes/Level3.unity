@@ -4694,12 +4694,12 @@ MonoBehaviour:
   player: {fileID: 2112186199}
   gameState: 0
   score: 0
-  canBeatLevel: 1
+  canBeatLevel: 0
   isFinalLevel: 0
-  beatEasyLevelScore: 20
-  beatNormalLevelScore: 40
-  beatHardLevelScore: 60
-  beatExploreLevelScore: 50
+  beatEasyLevelScore: 5
+  beatNormalLevelScore: 10
+  beatHardLevelScore: 15
+  beatExploreLevelScore: 40
   mainCanvas: {fileID: 1085701265}
   mainScoreDisplay: {fileID: 1085701264}
   gameOverCanvas: {fileID: 1699903445}

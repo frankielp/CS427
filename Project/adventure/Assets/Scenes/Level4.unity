@@ -4848,6 +4848,7 @@ MonoBehaviour:
   distance: 6
   height: 5
   smoothSpeed: 0.125
+  rotationSmoothSpeed: 5
 --- !u!114 &1460803886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4865,10 +4866,10 @@ MonoBehaviour:
   score: 0
   canBeatLevel: 1
   isFinalLevel: 1
-  beatEasyLevelScore: 40
-  beatNormalLevelScore: 60
-  beatHardLevelScore: 100
-  beatExploreLevelScore: 50
+  beatEasyLevelScore: 5
+  beatNormalLevelScore: 10
+  beatHardLevelScore: 15
+  beatExploreLevelScore: 40
   mainCanvas: {fileID: 1558257520}
   mainScoreDisplay: {fileID: 1385777069}
   gameOverCanvas: {fileID: 1310802049}

@@ -1,4 +1,4 @@
-# cs427-final
+# CS427 - 3D Game Unity Final Project
 ## Assets Credits 
 
 #### Musics and Sounds
